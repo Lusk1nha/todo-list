@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefinhas</title>
+
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="shortcut icon" href="../assets/todo-list-v2.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div id="title">Lista de Tarefas</div>
+
+    <div id="createTask">
+        <input id="taskInput" type="text" placeholder="Escreva uma tarefa aqui">
+        <span id="inputReset">x</span>
+        <button id="addTask" type="button">adicionar</button>
+
+    </div>
+
+        <h2 id="noTasks"></h2>
+    <div id="container">
+
+        <div id="uncompleted"></div>
+        <div id="completed"></div>
+    </div>
+
+    <script type="module" src="../scripts/index.js"></script>
+    <script type="module" src="../scripts/draggable.js"></script>
+</body>
+
+</html>
