@@ -2,15 +2,14 @@
 
 A todo-list with drag function 
 
-With this project a learn about elements with effects and drag function
+In this project I learned about effects and drag functions in elements, arrow functions and how to create html elements using javascript.
 
-Coded by me!
+All this coded by me!
 
 # Technologies
-
-HTML5, CSS3 and JavaScript
+In this project I used HTML5, CSS3 and JavaScript
 
 ## Result
 
-> ### See the result live [here](https://todo-list-vercel.vercel.app/) 
+> ### See and interact with the application [here](https://todo-list-vercel.vercel.app/) 
 [![codepen.io](https://github.com/Lusk1nha/todo-list/blob/master/src/assets/todo-list-img-demonstrate.png)](https://todo-list-vercel.vercel.app/)
