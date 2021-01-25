@@ -1,0 +1,29 @@
+@media screen and (max-width: 780px) {
+    body {
+        width: 600px;
+
+        overflow: hidden;
+
+    }
+
+    #title {
+        font-size: 60px;
+
+    }
+
+    #title, #createTask, #noTasks, #container {
+        width: 80%;
+        min-width: 440px;
+
+    }
+
+    #createTask input {
+        font-size: 15px;
+
+    }
+
+    #noTasks {
+        font-size: 18px;
+
+    }
+}

@@ -26,10 +26,18 @@
 
 }
 
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 body {
     background-color: var(--main-background-color);
 
     min-height: 100vh;
+    max-width: 1000px;
 
     display: flex;
     flex-direction: column;
@@ -177,6 +185,9 @@ body {
     height: 420px;
 
     overflow: auto;
+
+    scrollbar-color: ;
+    scrollbar-width: 6px;
 
 }
 
